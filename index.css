@@ -1,0 +1,26 @@
+body{
+    font-family: serif;
+    color: white;
+    text-shadow: 1.6px 1px 1px black;
+    font-size: 24px;
+}
+header{
+    display: flex;
+    position: fixed;
+    background-color: rgb(237, 240, 247);
+    width: 100%;
+    top: 0.1px;
+    left: 0.1px;
+    right: 0px;
+    margin-bottom: 500px;
+}
+td{
+    position: relative;
+    text-align: center;
+    width: 5%;
+}
+table{
+    left: 15%;
+    position: relative;
+    width: 161%;
+}
