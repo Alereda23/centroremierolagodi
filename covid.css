@@ -113,3 +113,44 @@ select{
     width: 100%;
     background-color: rgb(0, 104, 164);
 }
+a{
+    font-family: serif;
+    color: white;
+    text-shadow: 1.6px 1px 1px black;
+    font-size: 100%;
+}
+.immaginepdf{
+    width: 50px;
+}
+footer{
+    background-color: darkslategrey;
+    margin: 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+.fondo{
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+#scritteinfondo{
+    margin-left: 50px;
+}
+#asd{
+    position: relative;
+    text-align: center;
+    margin-left: 50px;
+}
+#como{
+    text-align: right;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+img{
+    background-color: darkslategrey;
+}
