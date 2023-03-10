@@ -118,9 +118,14 @@ a{
     color: white;
     text-shadow: 1.6px 1px 1px black;
     font-size: 100%;
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
 }
 .immaginepdf{
     width: 50px;
+    margin-top: 10px;
 }
 footer{
     background-color: darkslategrey;
