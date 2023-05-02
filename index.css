@@ -19,15 +19,15 @@ body {
   
   .logo {
     position: relative;
-    top: 5px;
+    top: 7px;
     left: 5px;
-    width: 150px;
+    width: 120px;
   }
   
   h1 {
     position: absolute;
     z-index: 2;
-    top: 150px;
+    top: 100px;
     width: 100%;
     text-align: center;
     font-family: serif;
@@ -335,8 +335,18 @@ body {
     position: relative;
     text-align: center;
   }
+  #lariofiere{
+    position: relative;
+    margin-right: 25px;
+  }
+  #comitatoregionalelombardia{
+    position: relative;
+    text-align: right;
+    top: 10px;
+    margin-right: 25px;
+  }
   #scritteinfondo{
-    margin-left: 50px;
+    margin-left: 25px;
   }
   .facebook {
     height: 30px;
@@ -344,12 +354,21 @@ body {
   #asd{
     position: relative;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 25px;
   }
   #como{
     text-align: right;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  #romagnosi {
+    position: relative;
+    left: 47px;
+    height: 80px;
+  }
+  #worldrowing{
+    position: relative;
+    text-align: left;
   }
   
   
