@@ -20,8 +20,8 @@ body {
   .logo {
     position: relative;
     top: 7px;
-    left: 5px;
-    width: 120px;
+    left: 3px;
+    width: 115px;
   }
   
   h1 {
@@ -158,28 +158,34 @@ body {
     right: 0px;
   }
   #menu2 {
-    right: 35px;
+    display: flex;
+    padding-right: 22px;
+    right: 34px;
+    width: 15.4px;
   }
-  #menu3 {
-    right: 231px;
+  #menu3 { 
+    right: 82.5px;
   }
   #menu4 {
-    right: 314px;
+    right: 277px;
   }
   #menu5 {
-    right: 437px;
+    right: 359px;
   }
   #menu6 {
-    right: 687px;
+    right: 481.5px;
   }
   #menu7 {
-    right: 861px;
+    right: 730.5px;
   }
   #menu8{
-    right: 970px;
+    right: 903px;
   }
   #menu9{
-    right: 1082px;
+    right: 1011px;
+  }
+  #menu10{
+    right: 1122px;
   }
   
   /* Stile per il menu */
