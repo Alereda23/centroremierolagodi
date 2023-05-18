@@ -16,7 +16,7 @@ header {
   padding-bottom: 12px;
   background-color: white;
   opacity: 95%;
-  font-size: 12px;
+  font-size: 11.5px;
 }
 
 .logo {
@@ -163,34 +163,34 @@ a {
   display: flex;
 }
 #menu2 {
-  right: 50.5px;
+  right: 49px;
 }
 #menu3 { 
-  right: 247px;
+  right: 238px;
 }
 #menu4 {
-  right: 331px;
+  right: 318px;
 }
 #menu5 {
-  right: 455px;
+  right: 437px;
 }
 #menu6 {
-  right: 706px;
+  right: 693px;
 }
 #menu7 {
-  right: 881px;
+  right: 892px;
 }
 #menu8{
-  right: 991px;
+  right: 997px;
 }
 #menu9{
-  right: 1104px;
+  right: 1105px;
 }
 
 /* Stile per il menu */
 .menu {
   position: absolute;
-  top: 10px;
+  top: 12px;
   display: inline-block;
   color: #000;
   background-color: white;
@@ -369,9 +369,8 @@ footer{
   margin-left: 15px;
   margin-right: 15px;
 }
-#romagnosi {
+.romagnosi {
   position: relative;
-  left: 47px;
   height: 80px;
 }
 #worldrowing{
@@ -384,7 +383,11 @@ footer{
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-width: 1349px) {
 
- .menutotale {
+  header{
+    background-color: transparent;
+  }
+
+  .menutotale {
     display: none;
   }
 
