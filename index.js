@@ -105,3 +105,20 @@ document.getElementById("mySidenav").style.width = "70%";
 function closeNav() {
 document.getElementById("mySidenav").style.width = "0";
 }
+
+
+
+/* Popup per i cookie e privacy */
+function closePopup() {
+  document.querySelector('.overlay').style.display = 'none';
+}
+
+function acceptCookies() {
+  // Logica per accettare i cookie
+  closePopup();
+}
+
+function rejectCookies() {
+  // Logica per rifiutare i cookie
+  closePopup();
+}
