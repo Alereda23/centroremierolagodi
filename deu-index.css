@@ -14,7 +14,7 @@ body {
     top: 0px;
     width: 100%;
     padding-bottom: 12px;
-    background-color: red;
+    background-color: white;
     opacity: 95%;
     font-size: 11.5px;
   }
@@ -23,7 +23,7 @@ body {
     position: relative;
     top: 7px;
     left: 3px;
-    width: 120px;
+    width: 110px;
   }
   
   h1 {
@@ -194,28 +194,28 @@ body {
     display: flex;
   }
   #menu2 {
-    right: 49px;
+    right: 48px;
   }
   #menu3 { 
-    right: 238px;
+    right: 236px;
   }
   #menu4 {
-    right: 334px;
+    right: 331px;
   }
   #menu5 {
-    right: 418px;
+    right: 414px;
   }
   #menu6 {
-    right: 722px;
+    right: 717px;
   }
   #menu7 {
-    right: 909px;
+    right: 903px;
   }
   #menu8{
-    right: 1014px;
+    right: 1007px;
   }
   #menu9{
-    right: 1122px;
+    right: 1114px;
   }
   
   /* Stile per il menu */
