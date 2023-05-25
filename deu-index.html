@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="de">
     
     <head>
         <meta charset="UTF-8">
         <title>Home | CRLP 2023</title>
-        <link href="index.css" rel="stylesheet">
+        <link href="deu-index.css" rel="stylesheet">
         <script type="text/javascript" src="index.js"></script>
         <link rel="shortcut icon" type="image/x-icon" href="https://static.wixstatic.com/media/76bff0_af8e3096e5334f7a99f820ea88b3d613~mv2.png/v1/fill/w_220,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/CRLP%20logo%20esteso%20color.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -16,29 +16,29 @@
             <div class="overlay" style="color: black;">
                 <div class="popup">
                     <span class="close-btn" onclick="closePopup()" style="font-size: 30px;"">X</span>
-                    <h2 style="font-size: 40px;">La tua privacy è importante per noi</h2>
-                    <p style="font-size: 22px;"">Questo sito utilizza i cookie per migliorare la tua esperienza. Continuando la navigazione, acconsenti all'utilizzo dei cookie.</p>
-                    <button onclick="acceptCookies()" style="font-size: 20px;">Accetta</button>
-                    <button onclick="rejectCookies()" style="font-size: 20px;">Rifiuta</button>
+                    <h2 style="font-size: 40px;">Ihre Privatsphäre ist uns wichtig</h2>
+                    <p style="font-size: 22px;"">Diese Website verwendet Cookies, um Ihr Erlebnis zu verbessern. Indem Sie weitersurfen, stimmen Sie der Verwendung von Cookies zu.</p>
+                    <button onclick="acceptCookies()" style="font-size: 20px;">Akzeptieren</button>
+                    <button onclick="rejectCookies()" style="font-size: 20px;">Abfall</button>
                 </div>
             </div>
 
-            <a href="index.html">
+            <a href="deu-index.html">
                 <img src="https://static.wixstatic.com/media/76bff0_af8e3096e5334f7a99f820ea88b3d613~mv2.png/v1/fill/w_220,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/CRLP%20logo%20esteso%20color.png" alt="" class="logo">
             </a>
 
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="index.html">HOME</a>
+                <a href="due-index.html">HOME</a>
                 <a href="#">ROWING WINTER CHALLENGE</a>
-                <a href="#">REGATE</a>
-                <a href="#">CANOTTAGGIO</a>
-                <a href="#">CENTRO ESTIVO - IL CENTRO DELL'ESTATE</a>
-                <a href="#">BOATHOUSE - HANGAR BARCHE</a>
-                <a href="#">FORESTERIA</a>
+                <a href="#">REGATTEN</a>
+                <a href="#">RUDERN</a>
+                <a href="#">SOMMERZENTRUM – DAS ZENTRUM DES SOMMERS</a>
+                <a href="#">BOOTSHAUS - BOOTSHANGAR</a>
                 <a href="#">CLUB HOUSE</a>
-                <a href="#">CHI SIAMO</a>
-                <div style="display: flex;"><a href="index.html">ITA</a><a href="eng-index.html">ENG</a><a href="deu-index.html">DEU</a></div>
+                <a href="#">GÄSTEHAUS</a>
+                <a href="#">WER WIR SIND</a>
+                <div style="display: flex;"><a href="deu-index.html">DEU</a><a href="index.html">ITA</a><a href="eng-index.html">ENG</a></div>
             </div>
 
             <!-- Use any element to open the sidenav -->
@@ -52,14 +52,14 @@
 
             <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
             <div id="main"></div>
-
+            
             <div class="menutotale">
-
+                
                 <div class="menu" class="menu-right" id="menu1" style="height: 12px;">
-                    <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/svg/1f1ee-1f1f9.svg"><span style="position: relative; left: 5px;">&#9660;</span>
+                    <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/svg/1f1e9-1f1ea.svg"><span style="position: relative; left: 5px;">&#9660;</span>
                     <ul style="width: 48px;">
+                        <a href="index.html"><li style="transform: translateX(-1%); width: 8px;"><img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/svg/1f1ee-1f1f9.svg" style="width: 15.4px;"></li></a>
                         <a href="eng-index.html"><li style="transform: translateX(-1%); width: 8px;"><img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/svg/1f1ec-1f1e7.svg" style="width: 15.4px;"></li></a>
-                        <a href="deu-index.html"><li style="transform: translateX(-1%); width: 8px;"><img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/svg/1f1e9-1f1ea.svg" style="width: 15.4px;"></li></a>
                     </ul>
                 </div>
 
@@ -70,55 +70,55 @@
             </a>
 
             <div class="menu" class="menu-right" id="menu3">
-                <span id="regate">REGATE &#9660;</span>
+                <span id="regate">REGATTEN &#9660;</span>
                 <ul>
-                  <li>REGATE NAZIONALI</li>
-                  <li>REGATE REGIONALI</li>
+                  <li>NATIONALE REGATTEN</li>
+                  <li>REGIONALE REGATTEN</li>
                 </ul>
             </div>
 
             <div class="menu" class="menu-right" id="menu4">
-                <span id="canottaggio">CANOTTAGGIO &#9660;</span>
+                <span id="canottaggio">RUDERN &#9660;</span>
                 <ul>
-                  <li>SEZIONI</li>
-                  <li>ATTIVITA' CON LE SCUOLE</li>
-                  <li>CORSI CANOTTAGGIO</li>
+                  <li>ABSCHNITTE</li>
+                  <li>AKTIVITÄTEN MIT SCHULEN</li>
+                  <li>RUDERKURSE</li>
                 </ul>
             </div>
 
             <div class="menu" class="menu-right" id="menu5">
-                <span id="board">CENTRO ESTIVO - IL CENTRO DELL'ESTATE</span>
+                <span id="board">SOMMERZENTRUM – DAS ZENTRUM DES SOMMERS</span>
             </div>
 
             <div class="menu" class="menu-right" id="menu6">
-                <span id="club">BOATHOUSE - HANGAR BARCHE</span>
+                <span id="club">BOOTSHAUS - BOOTSHANGAR</span>
             </div>
 
             <div class="menu" class="menu-right" id="menu7">
-                <span id="club">FORESTERIA &#9660;</span>
+                <span id="club">GÄSTEHAUS &#9660;</span>
                 <ul>
-                  <li>CENTRO REMIERO</li>
-                  <li>PUSIANO - PALAZZO BEAUHARNAIS</li>
+                  <li>RUDERZENTRUM</li>
+                  <li>PUSIANO - BEAUHARNAIS PALAST</li>
                 </ul>
             </div>
             
             <div class="menu" class="menu-right" id="menu8">
                 <span id="club">CLUB HOUSE &#9660;</span>
                 <ul>
-                  <li>ZONA RELAX</li>
-                  <li>PALESTRE</li>
-                  <li>AULA DIDATTICA</li>
-                  <li>INFERMERIA</li>
+                  <li>RELAX BEREICH</li>
+                  <li>TURNHALLEN</li>
+                  <li>UNTERRICHTSRAUM</li>
+                  <li>KRANKENSTUBE</li>
                 </ul>
                 </div>
 
                 <div class="menu" class="menu-right" id="menu9">
-                    <span id="club">CHI SIAMO &#9660;</span>
+                    <span id="club">WER WIR SIND &#9660;</span>
                     <ul>
-                      <li>STORIA</li>
-                      <li>IL CONSIGLIO</li>
-                      <li>I SOCI</li>
-                      <li>CONTATTI</li>
+                      <li>GESCHICHTE</li>
+                      <li>DAS GREMIUM</li>
+                      <li>DIE MITGLIEDER</li>
+                      <li>ZUGRIFFSZAHL</li>
                     </ul>
                 </div>
 
@@ -139,8 +139,8 @@
         <img class="falsaimmagine" src="Foto/Primaimmagine.webp">
 
         <h1>
-            CENTRO REMIERO<br>
-            LAGO DI PUSIANO
+            RUDERZENTRUM AM<br>
+            SEE VON PUSIANO
         </h1>
         
         <div class="bandieraitalia">
